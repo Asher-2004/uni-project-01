@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/draft.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+</head>
+<body id="index-page">
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="logo.png" alt=""></a>
+        </div>
+        <ul id="navbar">
+            <li><a href="index.html" class="active">Home Page</a></li>
+            <li><a href="mission.html" >Our Mission</a></li>
+            <li><a href="#">Sub Task 2.A</a></li>
+            <li><a href="#">Sub Task 2.B</a></li>
+            <li><a href="#">Sub Task 3.A</a></li>
+            <li><a href="#">Sub Task 3.B</a></li>
+        </ul>
+    </header>
+    <main>
+        <section id="hero">
+            <div class="info-container">
+                <div class="info info1"></div>
+                <div class="info info2"></div>
+            </div>
+        </section>
+        <p class="lol">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum a quaerat molestias ducimus quam quae alias error hic odit, quo officiis consectetur. Quis, ipsum ipsam illum necessitatibus possimus cum nemo! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut nihil incidunt minima iusto id libero eveniet esse laudantium animi repellendus ratione expedita autem, numquam aliquid. Error numquam animi amet ipsa. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa, nobis. Deserunt quam explicabo recusandae hic corrupti harum, officiis aut dignissimos quisquam totam dicta eius animi vel temporibus, distinctio eum placeat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet doloribus sit, mollitia temporibus odio neque explicabo enim. Repellendus veritatis explicabo sed, optio iure, laboriosam ipsam, voluptates eum labore tenetur deserunt. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod tenetur, reprehenderit esse, nam nesciunt nostrum aspernatur consequuntur, obcaecati sapiente iure commodi architecto eum! Suscipit optio distinctio unde quis voluptatem saepe!</p>
+        <div class="main-info-container">
+            <div class="info">
+                <div class="info-img"></div>
+                <div class="info-para">
+                    <h3>Health & Age Demographic</h3>
+                    <p>
+                        Explore the 2021 census on both the health and age demographic data where you can explore our database to receive your desired dataset. Choose the health database to see how the long-term health condition affects both the indigenous and non-indigenous communities. Choose the Age demographic to see the demographics of both indigenous and non-indigenous communities. Both datasets can be grouped either at an LGA (Local government area) or State Level.                    
+                    </p>
+                </div>
+            </div>
+            <div class="info">
+                <div class="info-para">
+                    <h3>School & Non-School Education</h3>
+                    <p>
+                        Explore the 2021 census on the school and non-school education completed by both indigenous and non-indigenous communities. Choose the School education database to see the highest school year completion achieved by both indigenous and non-indigenous communities. Choose the Non-School database to see the tertiary education completed by both indigenous and non-indigenous communities. Both datasets can be grouped either at an LGA (Local government area) or State Level.                    
+                    </p>
+                </div>
+                <div class="info-img"></div>
+            </div>
+            <div class="info">
+                <div class="info-img"></div>
+                <div class="info-para">
+                    <h3>The Gap</h3>
+                    <p>
+                        Explore the Gap between the indigenous and non-indigenous communities regarding the differences in age demographic, school education, non-school education, and long-term health. The dataset will compare the 2021 census with the 2016 census, showing the difference in either Raw (numerical) or Proportional (percentage).                    
+                    </p>
+                </div>
+            </div>
+            <div class="info">
+                <div class="info-para">
+                    <h3>LGA Comparison</h3>
+                    <p>
+                        Explore LGAs (local government areas) that are similar to each other using our app, it enables you to choose an LGA (local government area), the database and its attributes. This allows you to explore LGAs with similar numbers of people and attributes.                    
+                    </p>
+                </div>
+                <div class="info-img"></div>
+            </div>
+        </div>
+        <div class="surveyed-popu">
+            <div class="popu-container">
+                <h2>Total Population Surveyed In 2016</h2>
+            </div>
+            <div class="line"></div>
+            <div class="popu-container">
+                <h2>Total Population Surveyed In 2021</h2>
+            </div>
+        </div>
+
+        <h1 class="img-show">Australian Territories</h1>
+        <div class="img-show-container">
+            <div class="img-container img-buttons">
+              <p class="img-click-button" onclick="currentDiv(1)">Capital Territory</p>
+              <p class="img-click-button" onclick="currentDiv(2)">New South Wales</p>
+              <p class="img-click-button" onclick="currentDiv(3)">Nothern Territory</p>
+              <p class="img-click-button" onclick="currentDiv(4)">Queensland</p>
+              <p class="img-click-button" onclick="currentDiv(5)">South Australia</p>
+              <p class="img-click-button" onclick="currentDiv(6)">Tasmania</p>
+              <p class="img-click-button" onclick="currentDiv(7)">Victoria</p>
+              <p class="img-click-button" onclick="currentDiv(8)">Western Australia</p>
+            </div>
+              <div class="img-container img-show-images">
+                <img class="mySlides" src="states16/Australian Capital Territory.png">
+                <img class="mySlides" src="states16/New South Wales.png">
+                <img class="mySlides" src="states16/Northern Territory.png">
+                <img class="mySlides" src="states16/Queensland.png">
+                <img class="mySlides" src="states16/South Australia.png">
+                <img class="mySlides" src="states16/Tasmania.png">
+                <img class="mySlides" src="states16/Victoria.png">
+                <img class="mySlides" src="states16/Western Australia.png">
+              </div>
+          </div>
+        <h1 class="summary-tt">Population Of Australia</h1>
+        <section id="summary-table">
+            <table width="100%" class="table2">
+                <thead>
+                    <tr>
+                        <th>New South Wales</th>
+                        <th>Victoria</th>
+                        <th>Queensland</th>
+                        <th>Western Australia</th>
+                        <th>South Australia</th>
+                        <th>Tasmania</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>data</td>
+                        <td>data</td>
+                        <td>data</td>
+                        <td>data</td>
+                        <td>data</td>
+                        <td>data</td>
+                    </tr>
+                    <tr>
+                        <td>data</td>
+                        <td>data</td>
+                        <td>data</td>
+                        <td>data</td>
+                        <td>data</td>
+                        <td>data</td>
+                    </tr>
+                    <tr>
+                        <td>data</td>
+                        <td>data</td>
+                        <td>data</td>
+                        <td>data</td>
+                        <td>data</td>
+                        <td>data</td>
+                    </tr>
+                    <tr>
+                        <td>data</td>
+                        <td>data</td>
+                        <td>data</td>
+                        <td>data</td>
+                        <td>data</td>
+                        <td>data</td>
+                    </tr>
+                    <tr>
+                        <td>data</td>
+                        <td>data</td>
+                        <td>data</td>
+                        <td>data</td>
+                        <td>data</td>
+                        <td>data</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <!-- <div id="regions_div"></div>
+        </section> -->
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer footer-left">
+                <img src="/logo-footer.png" alt="logo">
+            </div>
+
+            <div class="footer footer-left-02">
+                <ul>
+                    <li><a href="index.html">Home Page</a></li>
+                    <li><a href="mission.html">Our Mission</a></li>
+                    <li><a href="#">Sub Task 2.A</a></li>
+                    <li><a href="#">Sub Task 2.B</a></li>
+                    <li><a href="#">Sub Task 3.A</a></li>
+                    <li><a href="#">Sub Task 3.B</a></li>
+                </ul>
+            </div>
+
+            <div class="footer footer-center">
+                <div>
+                    <i class="fa fa-map-marker"></i>
+                    <p>Melbourne, Victoria</p>
+                </div>
+
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <p>+61449990065</p>
+                </div>
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <p><a href="mailto:mail@gmail.com">mail@gmail.com</a></p>
+                </div>
+            </div>
+
+            <div class="footer footer-right">
+                <h3>
+                    About the Website
+                </h3>
+                <p>
+                    <strong>adsadasdasdasdasdasdasd</strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus voluptatum similique perferendis voluptatem cupiditate dolorum odit deserunt! Voluptas laudantium nisi vel, dicta sequi praesentium iusto, quas voluptatem, nulla officia quis.
+                </p>
+                <div class="footer-icons">
+                    <a href="https://www.facebook.com" target="_blank"><img src="images/facebook.svg"></a>
+                    <a href="https://www.instagram.com" target="_blank"><img src="images/instagram.svg"></a>
+                    <a href="https://www.linkedin.com" target="_blank"><img src="images/linkedin-in.svg"></a>
+                    <a href="https://www.twitter.com" target="_blank"><img src="images/twitter.svg"></a>
+                    <a href="https://www.youtube.com" target="_blank"><img src="images/youtube.svg"></a>
+                </div>
+            </div>
+        </div>
+
+        <p class="footer-copyright">
+            Copyright © 2023 | All Rights Reserved <strong> | RMIT</strong> 
+        </p>
+
+    </footer>
+
+    <!-- <h1 class="summary-tt">Title Something Something</h1>
+    <section id="summary-table">
+        <table width="100%" class="table1">
+            <thead>
+                <tr>
+                    <th>Number of LGAs</th>
+                    <th>Total population surveyed in the Census for 2016 and 2021</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>data 01</td>
+                    <td>data 02</td>
+                </tr>
+            </tbody>
+        </table>
+        <table width="100%" class="table2">
+            <thead>
+                <tr>
+                    <th>Population of New South Wales</th>
+                    <th>Population of Victoria</th>
+                    <th>Population of Queensland</th>
+                    <th>Population of Western Australia</th>
+                    <th>Population of South Australia</th>
+                    <th>Population of Tasmania</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>data1</td>
+                    <td>data2</td>
+                    <td>data3</td>
+                    <td>data4</td>
+                    <td>data5</td>
+                    <td>data6</td>
+                </tr>
+            </tbody>
+        </table>
+    </section> -->
+    <script src="main.js"></script>
+</body>
+</html>

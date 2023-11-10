@@ -1,0 +1,31 @@
+package app;
+
+public class lga_class {
+    private String lga_name;
+    private int lga_code;
+    private int count;
+
+    public void setName(String name) {
+        this.lga_name = name;
+    }
+
+    public void setCode(int code) {
+        this.lga_code = code;
+    }
+
+    public void setCount(int count) {
+        this.count = count;
+    }
+
+    public String getName() {
+        return this.lga_name;
+    }
+
+    public int getCode() {
+        return this.lga_code;
+    }
+
+    public int getCount() {
+        return this.count;
+    }
+}
